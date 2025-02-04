@@ -54,3 +54,10 @@ function calculateTax() {
     return (amount * taxRate)
 }
 console.log(`The base cost was $${amount} and $${calculateTax()} was paid in tax`);
+
+// Task 9 Function expression
+const applyDiscount = function (price, discount) {
+    return price * discount;
+  };
+  
+  console.log(applyDiscount(50, 0.80)); //Can plug in any combination of price/discount after applyDiscount()
