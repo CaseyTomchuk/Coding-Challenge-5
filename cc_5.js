@@ -46,3 +46,11 @@ console.log(`Total revenue: $${sum}`);
 customers = ["Alice", "Bob", "Charlie", "David"];
 customersFind = customers.find(customer => customer === "Charlie")
 console.log(`Customer Search Results: ${customersFind}`);
+
+// Task 8 Function Declaration
+let amount = 1000;
+let taxRate = 0.1; //10% tax rate
+function calculateTax() {
+    return (amount * taxRate)
+}
+console.log(`The base cost was $${amount} and $${calculateTax()} was paid in tax`);
