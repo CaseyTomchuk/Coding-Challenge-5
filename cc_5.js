@@ -31,3 +31,8 @@ console.log(cartItems);
 let prices = [100,200,300];
 let discountPrices = prices.map(price => price * 0.9); // multiplying the number by 0.9 to take of 10%
 console.log(discountPrices);
+
+// Task 5: Filter Method
+let inventory = [10,12,0,14,20];
+let filteredInv = inventory.filter(inv => inv > 0) // assigning any value greater than 0 to a new variable called filteredInv
+console.log(filteredInv);
