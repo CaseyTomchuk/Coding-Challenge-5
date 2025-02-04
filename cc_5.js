@@ -25,14 +25,19 @@ cartItems.push("cheese");
 cartItems.pop(); //removing the item just added
 cartItems.unshift("milk");
 cartItems.shift();
-console.log(cartItems);
+console.log(`Items in cart: ${cartItems}`);
 
 // Task 4: Map Method
 let prices = [100,200,300];
 let discountPrices = prices.map(price => price * 0.9); // multiplying the number by 0.9 to take of 10%
-console.log(discountPrices);
+console.log(`The discounted prices are: ${discountPrices}`);
 
 // Task 5: Filter Method
 let inventory = [10,12,0,14,20];
 let filteredInv = inventory.filter(inv => inv > 0) // assigning any value greater than 0 to a new variable called filteredInv
-console.log(filteredInv);
+console.log(`Inventory information: ${filteredInv}`);
+
+// Task 6: Reduce Method
+let sales = [500, 300, 200, 400];
+let sum = sales.reduce((currentTotal, currentValue) => currentTotal + currentValue, 0); // The 0 value is added to avoid potential errors
+console.log(`Total revenue: $${sum}`);
