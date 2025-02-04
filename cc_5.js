@@ -41,3 +41,8 @@ console.log(`Inventory information: ${filteredInv}`);
 let sales = [500, 300, 200, 400];
 let sum = sales.reduce((currentTotal, currentValue) => currentTotal + currentValue, 0); // The 0 value is added to avoid potential errors
 console.log(`Total revenue: $${sum}`);
+
+// Task 7: find() method
+customers = ["Alice", "Bob", "Charlie", "David"];
+customersFind = customers.find(customer => customer === "Charlie")
+console.log(`Customer Search Results: ${customersFind}`);
