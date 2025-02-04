@@ -18,3 +18,11 @@ let order = {
     }
 };
 order.displayOrder();
+
+// Task 3: Array Manipulation
+let cartItems = ["lettuce, carrots, apples"];
+cartItems.push("cheese");
+cartItems.pop(); //removing the item just added
+cartItems.unshift("milk");
+cartItems.shift();
+console.log(cartItems);
