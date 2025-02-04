@@ -26,3 +26,8 @@ cartItems.pop(); //removing the item just added
 cartItems.unshift("milk");
 cartItems.shift();
 console.log(cartItems);
+
+// Task 4: Map Method
+let prices = [100,200,300];
+let discountPrices = prices.map(price => price * 0.9); // multiplying the number by 0.9 to take of 10%
+console.log(discountPrices);
