@@ -61,3 +61,8 @@ const applyDiscount = function (price, discount) {
   };
   
   console.log(applyDiscount(50, 0.80)); //Can plug in any combination of price/discount after applyDiscount()
+
+  // Task 10: Arrow Functions
+let purchase2 = 40;
+let addPoints = (purchase2) => (purchase2 / 10); //simplifies the process so return is not necessary 
+console.log(`Your added points after your $${purchase2} purchase is: ${addPoints(purchase2)}`);
